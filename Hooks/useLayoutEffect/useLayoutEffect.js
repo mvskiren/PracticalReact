@@ -1,3 +1,9 @@
+/*
+At first glance, the useLayoutEffect and useEffect hooks look the same because they have a very similar function signature. There is, however, a subtle but important difference between them: the timing of when they get executed.
+
+While useEffect runs after the DOM paints to avoid blocking the page load, useLayoutEffect runs before the DOM paints, which can help avoid issues with positioning or styling. Generally speaking, you want to use the useLayoutEffect instead of useEffect when you are interacting with the DOM directly.
+*/
+
 import React, { useEffect, useLayoutEffect } from "react";
 export default function Modals() {
 
