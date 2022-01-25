@@ -1,0 +1,18 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  border-radius: 4px;
+  background: white;
+}
+
+.Modal--purple {
+  border: 10px solid rebeccapurple;
+}
+
+.Modal--lime {
+  border: 10px solid limegreen;
+}
